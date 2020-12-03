@@ -1,0 +1,110 @@
+body{
+  margin:0;
+  padding:0; 
+  box-sizing: border-box;
+  font-family: 'Goldman';
+}
+
+.txtclr{
+  
+  color: azure !important;
+}
+.txtclr:hover{
+  color:orange !important;
+}
+.trans{
+  background-color: black;
+}
+.main-container{
+   
+    background: url('https://images.unsplash.com/photo-1528494017723-89da6b5a1cd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80') no-repeat fixed;
+    height:80rem;
+    width:100vw;
+    background-size: 100% 100%;  
+
+}
+.main-container{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-a{
+  margin-top: 10rem;
+  font-size: 1.5rem;
+  color: orange;
+  height:100vh;
+}
+.main-b{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.main-b Link{
+  background: orange;
+}
+.main-a h5{
+  color: bisque;
+  padding-left: 2rem;
+  
+}
+.bt{
+  padding:0.5rem 0.5rem;
+  background: orange;
+  border-radius: 10rem;
+  margin: 3rem 1rem;
+  width:15rem;
+  color:white;
+  transition: all 0.15s linear;
+  outline-style: none;
+
+}
+.bt:hover{
+  background: transparent;
+  color: orange;
+}
+.deals{
+  background: white;
+  width: 100vw;
+  height:150rem;
+}
+
+.deals-shop{
+  display:flex;
+  flex-wrap: wrap;
+  padding: 2rem 3rem;
+  justify-content: space-between;
+}
+.deals-shop div{
+  margin: 1rem 1rem;
+}
+.footer{
+  width:100%;
+  height:15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  background-color: black;
+
+}
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+.login form{
+  border: 1px solid  orange;
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+  margin-bottom: 0;
+}
+.login button{
+  margin-left: 6rem;
+}
+.red{
+  color: brown !important;
+}
